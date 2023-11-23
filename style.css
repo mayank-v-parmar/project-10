@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700;900&display=swap');
+
+body{
+    margin: 0;
+    padding: 0;
+    width: 100vw;
+    height: 100vh;
+   font-family: 'Roboto', sans-serif;
+}
+.container{
+    width: 100%;
+    height: 100%;
+    display: block;
+    background-image: url(assets/retro-living-room-interior-design.jpg);
+    background-size: 100% 100%;
+    background-repeat: no-repeat;
+}
+
+nav{
+    display: flex;
+    width: 100%;
+    height: auto;
+    justify-content: space-between;
+}
+
+.logo{
+    flex: 1;
+    color: #fff;
+    font-size: 25px;
+    padding-left: 50px;
+    padding-top: 50px;
+}
+.menubar{
+    display: flex;
+    flex:4;
+    color: #fff;
+    position: relative;
+    border-bottom: 2px solid #fff;
+    margin-right: 50px;
+}
+
+.phone-img{
+    display: inline-block;
+    width: 200px;
+    margin-left: -120px;
+    margin-top: -30px;
+}
+.list{
+    display: inline-flex;
+    justify-content: space-between;
+    list-style: none;
+    padding-top: 20px;
+    position: absolute;
+    right: 50px;
+    left: 0;
+    top: 30px;
+}
+.list-item{
+    font-size: 20px;
+}
+
+.contact-text{
+    font-size: 15px;
+    margin-left: -40px;
+    margin-top: -10px;
+}
+
+.hero{
+    display: block;
+    position: relative;
+}
+
+.heading{
+    position: relative;
+    width: 600px;
+    color:#fff;
+    margin-top: 50px;
+}
+
+h1{
+    position: absolute;
+    width: 100%;
+    font-size: 60px;
+    font-weight: 400;
+    right: 0;
+    left: 0;
+    padding-left: 50px;
+}
+
+.card{
+    padding-left: 20px;
+    height: 160px;
+    width: 250px;
+    display: inline-block;
+    position: absolute;
+    right: 100px;
+    top: 0px;
+    background-color: rgba(48,71,88,.5);
+}
+
+
+.card img{
+    width: 250px;
+    margin-bottom: -50px;
+}
+
+h6{
+    display: inline-block;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 400;
+}
+
+.line-1{
+    width: 1px;
+    height: 100px;
+    background-color:#fff;
+    position: absolute;
+}
+
+.bulb-card{
+    position: absolute;
+    height: 160px;
+    width: 250px;
+    right: 500px;
+    left: 500px;
+    top: 180px;
+     background-color: rgba(48,71,88,.5);
+     
+}
+
+.bulb-card img{
+    width: 250px;
+    margin-left: -80px;
+}
+.bulb-card h6{
+    display: inline-block;
+    padding-left: 20px;
+    margin-top: -20px;
+}
+
+.learn-more{
+    display: block;
+    position: absolute;
+    left: 50px;
+    top: 200px;
+}
+
+.learn-more Button{
+    color: #fff;
+    background: transparent;
+    border: 2px solid #fff;
+    border-radius: 25px;
+    padding: 10px 20px;
+}
